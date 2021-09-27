@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup {
+  position: absolute;
+  right: 10px;
+}
+
+.login {
+  position: absolute;
+  right: 100px;
+}
+
+.login,
+ul li {
+  margin: 10px;
+}
+.login a,
+ul li a {
+  color: hsl(0, 0%, 75%);
+  text-decoration: none;
+}
+
+ul li a:hover,
+.login a:hover {
+  color: hsl(260, 8%, 14%);
+  text-decoration: none;
+}
+
+.signup a {
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.signup a:hover {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+}
