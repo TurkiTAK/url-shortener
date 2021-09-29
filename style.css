@@ -5,6 +5,10 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 
+button {
+  font-family: "Poppins", sans-serif;
+}
+
 .signup {
   position: absolute;
   right: 10px;
@@ -41,4 +45,92 @@ ul li a:hover,
   border-radius: 30px;
   background-color: hsl(180, 66%, 49%);
   color: white;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 37px;
+}
+
+.div1 {
+  width: 50%;
+}
+
+.section1 img {
+  width: 50%;
+}
+
+.section1 {
+  display: flex;
+  margin-left: 50px;
+  margin-right: -30px;
+}
+
+.startbutton {
+  border-radius: 30px;
+  background-color: hsl(180, 66%, 49%);
+  border-width: 0px;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.section2 {
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: hsl(257, 27%, 26%);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.shorteninput {
+  width: 70%;
+  height: 30px;
+  border-radius: 4px;
+  border-color: transparent;
+  margin-right: 10px;
+  padding: 5px;
+  padding-left: 18px;
+}
+
+.shortenbutton {
+  border-radius: 4px;
+  background-color: white;
+  border-width: 0px;
+  color: black;
+  padding: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 20%;
+}
+
+.shortenbutton:hover {
+  border-radius: 4px;
+  background-color: hsl(180, 66%, 49%);
+  border-width: 0px;
+  color: white;
+  padding: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 20%;
+}
+
+.stat {
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.stat h2 {
+  font-weight: 900;
+}
+.stat p {
+  font-weight: 200;
+  color: hsl(0, 0%, 75%);
 }
